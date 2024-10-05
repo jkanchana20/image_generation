@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import './ImageGenerator.css';
 import ai_logo from '../Assets/ai_logo.jpg';
-import { Download } from 'react-bootstrap-icons';
+
 
 const ImageGenerator = () => {
     const [imageUrl, setImageUrl] = useState("/");
