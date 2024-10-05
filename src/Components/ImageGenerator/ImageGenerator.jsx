@@ -79,9 +79,8 @@ const ImageGenerator = () => {
                 />
                 <div className="generate-btn" onClick={imageGenerator}>Generate</div>
                 {imageUrl !== "/" && (
-                    <div className="download-btn" onClick={handleDownload}>
-                        <Download size={20} />
-                    </div>
+                    <button className="download-btn" onClick={handleDownload}>download</button>
+                      
                 )}
             </div>
         </div>
